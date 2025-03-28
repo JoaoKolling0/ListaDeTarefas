@@ -8,10 +8,22 @@
 </head>
 <body>
     <h1>Cadastro</h1>
-
+    <div class="formulario">
     <form action="/cadastro" method="POST">
-        <label></label>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+        <br>
+        <label for="email">E-mail<label>
+        <input type="text" id="email" name="email">
+        <br>
+        <label for="senha">Senha<label>
+        <input type="password" id="senha" name="senha" required>
+        <br>
+        <label for="senhacornfirmacao">Confirmasenha<label>
+        <input type="password" id="senhaconfirmacao" name="confirmasenha" required>  
+        <br>
+        <button type="submite" class="btn">Cadastrar</button> 
     </form>
-
+    <div>
 </body>
 </html>
